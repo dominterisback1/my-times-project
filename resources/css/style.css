@@ -10,6 +10,9 @@ header {
   font-size: 14px;
   font-weight: bold;
 }
+a {
+  color: black;
+}
 .logo{
   display: flex;
   align-items: center;
@@ -27,7 +30,7 @@ header {
 header nav{
   padding-right: 40px;
 }
-.container{
+.content{
   display: flex;
   width: 1300px;
   margin-top: 0px;
@@ -36,12 +39,20 @@ header nav{
   margin-left: auto;
   padding-top: 116px;
 }
-.column.large{
+div {
   border: 1px solid black;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+.column.large{
+  width: 630px;
 }
 .column.medium{
-  border: 1px solid black;
+  width: 300px;
 }
 .column.small{
-  border: 1px solid black;
+  width: 240px;
 }
